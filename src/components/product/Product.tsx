@@ -1,4 +1,4 @@
-import { singleProduct, singleUser } from "../../data";
+import { singleProduct } from "../../data";
 import Single from "../single/Single";
 
 function Product() {
