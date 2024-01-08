@@ -29,6 +29,12 @@ a {
   padding: 5px 20px;
   border-right: 2px solid $soft-bg;
 
+  @include sm {
+    border-right: 2px solid $soft-bg;
+    width: 50px;
+    margin: -14px;
+  }
+
   @include lg {
     width: max-content;
   }
